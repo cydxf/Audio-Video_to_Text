@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASR - 语音识别</title>
+    <link rel="stylesheet" href="../../../css/ASR.css">
+</head>
+<body>
+    <div class="container">
+        <h1>语音识别</h1>
+        <form id="uploadForm" method="post" enctype="multipart/form-data" class="upload-form">
+            <input type="file" id="audioFile" accept="audio/*,video/*" class="file-input">
+            <button type="button" id="uploadButton" class="upload-button">上传并识别</button>
+        </form>
+        <textarea id="resultText" class="result-text" rows="10" cols="80" placeholder="识别结果将显示在这里..."></textarea>
+        <button id="downloadButton" class="download-button" style="display: none;">下载文本</button>
+    </div>
+    <script src="../../../js/ASR.js"></script>
+</body>
+</html>
