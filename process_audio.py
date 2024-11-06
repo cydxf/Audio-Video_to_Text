@@ -116,9 +116,9 @@ def on_close(ws, a, b, chunk_path, progress_bar):
 
 def process_chunk(chunk_path, index, results, progress_bar):
     print(f"Processing chunk: {chunk_path}")
-    wsParam = Ws_Param(APPID='91f7bf93',  # 输入APPID
-                       APIKey='03d0245a398713654de95df630faaf30',  # 输入APIKey
-                       APISecret='MGI0NGRiNDgxNDAzMjk5ZjZiZTc4NTVk')  # 输入APISecret
+    wsParam = Ws_Param(APPID=appId,  # 输入APPID
+                       APIKey=apiKey,  # 输入APIKey
+                       APISecret=apiSecret)  # 输入APISecret
 
     def on_open(ws):
         print("WebSocket connection opened")

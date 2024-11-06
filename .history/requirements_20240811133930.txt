@@ -1,4 +1,0 @@
-websocket-client
-pydub
-tqdm
-ffmpeg-python

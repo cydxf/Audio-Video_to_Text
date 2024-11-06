@@ -1,0 +1,14 @@
+==> 2024-11-07 04:41:23 <==
+# cmd: D:\Anaconda\Scripts\conda-script.py create -n env python=3.9
+# conda version: 23.9.0
++defaults/noarch::tzdata-2024b-h04d1e81_0
++defaults/win-64::ca-certificates-2024.9.24-haa95532_0
++defaults/win-64::openssl-3.0.15-h827c3e9_0
++defaults/win-64::pip-24.2-py39haa95532_0
++defaults/win-64::python-3.9.20-h8205438_1
++defaults/win-64::setuptools-75.1.0-py39haa95532_0
++defaults/win-64::sqlite-3.45.3-h2bbff1b_0
++defaults/win-64::vc-14.40-h2eaa2aa_1
++defaults/win-64::vs2015_runtime-14.40.33807-h98bb1dd_1
++defaults/win-64::wheel-0.44.0-py39haa95532_0
+# update specs: ['python=3.9']
